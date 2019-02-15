@@ -1,13 +1,12 @@
-use_frameworks!
+#use_frameworks!  如果使用use_frameworks  dynamic framework
+#不使用 则以static library方式
 
 platform :ios, '8.0'
 
 target 'LBNetRequest_Example' do
   pod 'LBNetRequest', :path => '../'
 
-  target 'LBNetRequest_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'AFNetworking', '3.2.0'
+  pod 'LBBaseTools'
 end
+

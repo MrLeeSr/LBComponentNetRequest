@@ -1,0 +1,6 @@
+framework module LBNetRequest {
+  umbrella header "LBNetRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

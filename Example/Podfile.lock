@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - LBBaseTools (0.1.0)
+  - LBNetRequest (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.0)
+  - LBBaseTools
+  - LBNetRequest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - LBBaseTools
+
+EXTERNAL SOURCES:
+  LBNetRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  LBBaseTools: 79f81da17f712a04b9ae1e524026b7edb8861cb4
+  LBNetRequest: 7ec56d633459d3574963590df7bb5f64e691c7bf
+
+PODFILE CHECKSUM: 8eca01b4810f23c895799739c666fc077b315ebc
+
+COCOAPODS: 1.5.3

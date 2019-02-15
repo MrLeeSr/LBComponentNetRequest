@@ -1,0 +1,6 @@
+framework module LBBaseTools {
+  umbrella header "LBBaseTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
