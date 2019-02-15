@@ -15,7 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
   - LBBaseTools (0.1.0)
-  - LBNetRequest (0.1.0)
+  - LBNetRequest (0.1.0):
+    - AFNetworking
+    - LBBaseTools
 
 DEPENDENCIES:
   - AFNetworking (= 3.2.0)
@@ -34,7 +36,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   LBBaseTools: 79f81da17f712a04b9ae1e524026b7edb8861cb4
-  LBNetRequest: 7ec56d633459d3574963590df7bb5f64e691c7bf
+  LBNetRequest: 458fcc2c271110e8213bdd9039a3b92ee2c5aad2
 
 PODFILE CHECKSUM: 8eca01b4810f23c895799739c666fc077b315ebc
 

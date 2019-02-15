@@ -7,6 +7,6 @@ target 'LBNetRequest_Example' do
   pod 'LBNetRequest', :path => '../'
 
   pod 'AFNetworking', '3.2.0'
-  pod 'LBBaseTools'
+  pod 'LBBaseTools', '0.1.0'
 end
 
